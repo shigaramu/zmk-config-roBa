@@ -104,7 +104,7 @@
             bindings = <
 &kp ESCAPE      &trans    &kp UP_ARROW  &trans            &trans                                                                &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none   &kp BACKSPACE
 &trans          &kp LEFT  &kp DOWN      &kp RIGHT         &trans             &trans              &kp N0                         &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none   &none
-&trans          &trans    &trans        &trans            &trans             &bt BT_CLR_ALL      &kp LS(LA(LC(RIGHT_COMMAND)))  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans  &kp NON_US_BACKSLASH
+&trans          &trans    &trans        &trans            &trans             &bt BT_CLR_ALL      &kp LS(LA(LC(RIGHT_COMMAND)))  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans  &kp BACKSLASH
 &kp LEFT_SHIFT  &trans    &trans        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &mkp RCLK           &trans                         &trans                                            &none
             >;
 
