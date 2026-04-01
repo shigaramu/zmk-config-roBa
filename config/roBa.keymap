@@ -93,7 +93,7 @@
 &trans  &trans    &kp UP_ARROW  &trans            &trans                                    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none   &kp BACKSPACE
 &trans  &kp LEFT  &kp DOWN      &kp RIGHT         &trans             &trans         &kp N0  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none   &none
 &trans  &trans    &trans        &trans            &trans             &kp GRAVE      &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans  &kp NON_US_BACKSLASH
-&trans  &trans    &trans        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none          &trans  &trans                                            &none
+&trans  &trans    &trans        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &mkp LCLK      &trans  &trans                                            &none
             >;
 
             sensor-bindings = <&inc_dec_kp 0 0>;
