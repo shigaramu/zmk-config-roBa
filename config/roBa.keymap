@@ -91,10 +91,10 @@
 
         default_layer {
             bindings = <
-&kp Q           &kp W      &kp E    &kp R             &kp T                                                      &kp Y        &kp U  &lt 0 I    &kp O    &kp P
-&kp A           &kp S      &kp D    &kp F             &kp G         &kp LS(LG(NUMBER_4))      &kp SEMICOLON      &kp H        &kp J  &kp K      &kp L    &kp MINUS
-&kp Z           &kp X      &kp C    &kp V             &kp B         &kp SQT                   &kp SLASH          &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LEFT_SHIFT  &kp GRAVE  &kp TAB  &kp LEFT_CONTROL  &kp LEFT_ALT  &mkp LCLK                 &kp RIGHT_COMMAND  &lt 1 SPACE                             &kp ENTER
+&kp Q           &kp W      &kp E          &kp R             &kp T                                                      &kp Y        &kp U  &lt 0 I    &kp O    &kp P
+&kp A           &kp S      &kp D          &kp F             &kp G         &kp LS(LG(NUMBER_4))      &kp SEMICOLON      &kp H        &kp J  &kp K      &kp L    &kp MINUS
+&kp Z           &kp X      &kp C          &kp V             &kp B         &kp SQT                   &kp SLASH          &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LEFT_SHIFT  &kp GRAVE  &kp BACKSLASH  &kp LEFT_CONTROL  &kp LEFT_ALT  &mkp LCLK                 &kp RIGHT_COMMAND  &lt 1 SPACE                             &kp ENTER
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -103,7 +103,7 @@
         NUMBER {
             bindings = <
 &kp ESCAPE      &trans        &kp UP_ARROW  &trans            &none                                                                &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none   &kp BACKSPACE
-&trans          &kp LEFT      &kp DOWN      &kp RIGHT         &none              &trans             &kp N0                         &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none   &none
+&kp TAB         &kp LEFT      &kp DOWN      &kp RIGHT         &none              &trans             &kp N0                         &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none   &none
 &trans          &trans        &trans        &trans            &trans             &kp LG(SPACE)      &kp LS(LA(LC(RIGHT_COMMAND)))  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans  &kp BACKSLASH
 &kp LEFT_SHIFT  &bt BT_SEL 0  &bt BT_SEL 1  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &mkp RCLK          &trans                         &trans                                            &bt BT_CLR_ALL
             >;
