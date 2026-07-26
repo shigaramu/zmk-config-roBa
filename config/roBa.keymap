@@ -93,7 +93,7 @@
             bindings = <
 &kp Q           &kp W      &kp E          &kp R             &kp T                                                          &kp Y        &kp U  &lt 0 I    &lt 2 O  &kp P
 &kp A           &kp S      &kp D          &kp F             &kp G         &kp LS(LG(LC(NUMBER_4)))      &kp SEMICOLON      &kp H        &kp J  &kp K      &kp L    &kp MINUS
-&kp Z           &kp X      &kp C          &kp V             &kp B         &kp SQT                       &kp PLUS           &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp Z           &kp X      &kp C          &kp V             &kp B         &kp SQT                       &kp EQUAL          &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp LEFT_SHIFT  &kp GRAVE  &kp BACKSLASH  &kp LEFT_CONTROL  &kp LEFT_ALT  &mkp LCLK                     &kp RIGHT_COMMAND  &lt 1 SPACE                             &kp ENTER
             >;
 
